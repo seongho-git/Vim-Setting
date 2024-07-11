@@ -9,7 +9,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/t
 
 # vim-plug
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-cp ~/setting/.vimrc ~/.vimrc
+cp ~/Vim-Setting/.vimrc ~/.vimrc
 
 # Powerlevel 10k
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
@@ -26,7 +26,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
 #cp configs
-cd ../autojump
-cp .zshrc ~/.zshrc
-cp .p10k.zsh ~/.p10k.zsh
-cp .tmux.conf ~/.tmux.conf
+cd ../
+cp ~/Vim-Setting/.zshrc ~/.zshrc
+cp ~/Vim-Setting/.p10k.zsh ~/.p10k.zsh
+cp ~/Vim-Setting/.tmux.conf ~/.tmux.conf

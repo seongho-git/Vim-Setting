@@ -5,7 +5,7 @@ set encoding=utf-8
 set mouse=a
 
 " Syntax Highlighting
-if has("syntax")
+if has ("syntax")
   syntax on
 endif
 
